@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jinja2 python-holidays pandas
+          pip install jinja2 holidays pandas
 
       - name: Build static site
         run: |
